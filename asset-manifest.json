@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/UMD_Assigment/static/css/main.0c659d40.css",
+    "main.js": "/UMD_Assigment/static/js/main.a4408202.js",
+    "static/js/453.419a5d54.chunk.js": "/UMD_Assigment/static/js/453.419a5d54.chunk.js",
+    "index.html": "/UMD_Assigment/index.html",
+    "main.0c659d40.css.map": "/UMD_Assigment/static/css/main.0c659d40.css.map",
+    "main.a4408202.js.map": "/UMD_Assigment/static/js/main.a4408202.js.map",
+    "453.419a5d54.chunk.js.map": "/UMD_Assigment/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c659d40.css",
+    "static/js/main.a4408202.js"
+  ]
+}
