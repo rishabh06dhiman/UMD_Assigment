@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Provider store={store}>
-        <HashRouter>
+        <Router>
           <Suspense fallback={<p>...loading</p>}>
             <Routes>
               <Route path="/" element={<Login />} />
@@ -20,11 +20,10 @@ function App() {
               <Route path="/dashboard" element={<ProtectedRoute />} />
             </Routes>
           </Suspense>
-        </HashRouter>
+        </Router>
       </Provider>
     </div>
   );
 }
-
 
 export default App;
