@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes,HashRouter } from "react-router-dom";
 import { Suspense } from "react";
 import store from "./store/store";
 import { Provider } from "react-redux";
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Provider store={store}>
-        <Router>
+        <HashRouter>
           <Suspense fallback={<p>...loading</p>}>
             <Routes>
               <Route path="/" element={<Login />} />
@@ -20,7 +20,7 @@ function App() {
               <Route path="/dashboard" element={<ProtectedRoute />} />
             </Routes>
           </Suspense>
-        </Router>
+        </HashRouter>
       </Provider>
     </div>
   );
